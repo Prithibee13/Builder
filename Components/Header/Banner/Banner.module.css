@@ -1,0 +1,28 @@
+.banner
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("https://i.postimg.cc/pT7T97yV/pix1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+.discover
+{
+    background-color: #181C14;
+    color: #FABC3F;
+    padding: 3%;
+    border-radius: 5%;
+    width: 180px;
+}
+.discover:hover
+{
+    background-color: #FABC3F;
+    color: #000;
+}
+
+.dream
+{
+    background-color: #FABC3F;
+    border-radius: 2%;
+}
