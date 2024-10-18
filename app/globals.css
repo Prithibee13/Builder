@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+.counterContainer
+{
+    background-color: #FABC3F;
+}

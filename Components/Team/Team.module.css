@@ -1,0 +1,66 @@
+.imgContainer1 {
+    position: relative;
+    display: inline-block; /* Allows the content to shrink-wrap */
+}
+
+.imgContainer1 img {
+    width: 100%;  /* Make the image take up full width of container */
+    height: auto; /* Keep image aspect ratio */
+    display: block;
+}
+
+.imgContainer2 {
+    position: relative;
+    display: inline-block; /* Allows the content to shrink-wrap */
+}
+
+.imgContainer2 img {
+    width: 100%;  /* Make the image take up full width of container */
+    height: auto; /* Keep image aspect ratio */
+    display: block;
+}
+
+.imgContainer3 {
+    position: relative;
+    display: inline-block; /* Allows the content to shrink-wrap */
+}
+
+.imgContainer3 img {
+    width: 100%;  /* Make the image take up full width of container */
+    height: auto; /* Keep image aspect ratio */
+    display: block;
+}
+
+.imgContainer4 {
+    position: relative;
+    display: inline-block; /* Allows the content to shrink-wrap */
+}
+
+.imgContainer4 img {
+    width: 100%;  /* Make the image take up full width of container */
+    height: auto; /* Keep image aspect ratio */
+    display: block;
+}
+
+.imgOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(250, 188, 63, 0.7), rgba(250, 188, 63, 0.9));
+    opacity: 0; /* Hidden initially */
+    transition: opacity 0.3s ease; /* Smooth transition */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* Text color on top of the gradient */
+    font-size: 1rem;
+    z-index: 1; /* Makes sure the overlay is on top of the image */
+}
+
+.memberContainer:hover .imgOverlay
+{
+    opacity: 1;
+}
