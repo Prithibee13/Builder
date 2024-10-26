@@ -9,8 +9,8 @@ const Features  = () =>
                 <h1 className="text-2xl font-bold">Some Features that Made us Unique</h1>
                 <p className="mt-3">Who are in extremely love with eco friendly system.</p>
             </article>
-            <article className="p-32">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <article className="p-10 md:20 xl:p-32">
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
                     <Feature icon="lnr lnr-user" title="Expert Technicians"/>
                     <Feature icon="lnr lnr-license" title="Professional Service"/>
                     <Feature icon="lnr lnr-phone" title="Great Support"/>    

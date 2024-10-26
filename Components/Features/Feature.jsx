@@ -3,7 +3,7 @@ import classes from "./Feature.module.css"
 const Feature = (props) => {
     const { icon, title } = props
     return (
-        <article className='border rounded-xl p-12 hover:shadow-2xl hover:border-0 '>
+        <article className='border rounded-xl p-4 md:p-6 xl:p-12 hover:shadow-2xl hover:border-0 '>
             <div className='flex gap-4 mb-5 hover:text-[#FABC3F]'>
                 <i className={`${icon} text-[30px]`}></i>
                 <h2 className='text-xl font-semibold'>{title}</h2>
