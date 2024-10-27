@@ -1,11 +1,11 @@
 import Counter from "@/Components/Counter/Counter"
 import Team from "@/Components/Team/Team"
-
+import AboutUs from "@/Components/About/AboutUs"
 const About = ()=>
 {
     return(
         <div>
-            <h1>About us</h1>
+            <AboutUs></AboutUs>
             <Counter></Counter>
             <Team></Team>
         </div>

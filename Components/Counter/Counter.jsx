@@ -1,7 +1,7 @@
 const Counter = () =>
 {
     return(
-        <section className="mt-20 mb-10 py-20 counterContainer">
+        <section className="mt-20 py-20 counterContainer">
             <article className="container px-12 md:px-36">
                 <div className="grid grid-cols-3 xl:grid-cols-5 gap-10">
                     <article>

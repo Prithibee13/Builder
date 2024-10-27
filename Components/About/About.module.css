@@ -1,0 +1,12 @@
+.heroBtn 
+{
+    color: #fff;
+    padding: 2%;
+    border: solid 3px transparent;
+    background-color: #1A1A19;
+}
+.heroBtn:hover
+{
+    color: #000;
+    background-color: #FABC3F;
+}
